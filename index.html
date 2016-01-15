@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Scaleable Solutions</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Scaleable Solutions</a>
+            </div>
+            <div id="anonymous_user">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a id="login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+            <div id="register_user">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a><span id="user_name"></span></a></li>
+                    <li><a id="sign_out">Sign out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Scaleable Solutions</h1>
+            <p>This sample contains method on how to use Microsoft Dynamics Web API which is introduced in 2016 version</p>
+        </div>
+        <div class="well">
+            <button class="btn btn-primary" id="btn_get_name">Get Logged In Full name</button>
+            <button class="btn btn-danger" id="btn_clear" disabled>Clear Cache</button>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/adal.js"></script>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/Index.js"></script>
+</body>
+</html>
