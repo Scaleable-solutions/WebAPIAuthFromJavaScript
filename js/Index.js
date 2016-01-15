@@ -1,11 +1,11 @@
 /// <reference path="adal.js" />
 
 var user, authContext, errorMessage;
-var organizationURI = "https://scaleablesolutions.crm.dynamics.com";
+var organizationURI = <Add your organizationURI>;
 (function () {
-    var tenant = "b5b9b1df-08cf-4a8f-bb70-de0b3269521d"; 
-    var clientId = "ef7d8c4d-62ef-4998-bb27-4873570e1bd4"; 
-    var pageUrl = "http://localhost:81";
+    var tenant = <add your tenant>; 
+    var clientId = <Add your Client Id>; 
+    var pageUrl = <Add your Reply URL>;
 
     var endpoints = {
         orgUri: organizationURI
